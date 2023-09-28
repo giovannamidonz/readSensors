@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway&display=swap');
+
+
+.max {
+  max-width: 100%;
+  font-family: 'Raleway', sans-serif;
+}
+
+/* padrões visuais */
+h1 {
+  margin: 0px;
+  color: #33A8DB;
+  font-size: 32px;
+}
+
+p {
+  color: #FFFFFF;
+  text-align: center;
+
+}
+
+button {
+  width: 326px;
+  height: 57px;
+  top: 473px;
+  left: 557px;
+  border: 2px solid #33A8DB;
+  padding: 19px, 91px;
+  gap: 31px;
+  background: none;
+}
+
+span {
+  color: #33A8DB;
+}
+
+h2 {
+  display: flex;
+  flex-direction: column;
+}
+
+.topicos {
+  border: 1px solid #33A8DB;
+  border-radius: 57px;
+  background: #252525;
+  width: 535px;
+  height: 51px;
+  gap: 10px;
+  padding: 16px 127px;
+  margin: 10px;
+  text-align: center;
+  font-size: 16px;
+}
+
+/* fim dos padrões visuais */
+/* As Sections */
+.inicio {
+  height: 605px;
+  background-image: url(../img/image\ 2.jpg);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.linha {
+  border: 1px solid #33A8DB;
+  width: 100%;
+}
+
+
+.aprender {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: #000;
+  padding: 150px;
+}
+
+.text {
+  height: 363px;
+  border: 1px solid #33A8DB;
+  background-image: url(../img/thisisengineering-raeng-8hgmG03spF4-unsplash\ 1.jpg);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.ultima {
+  background: #000;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 150px;
+  gap: 50px;
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 25px;
+  background: linear-gradient(180deg, rgba(51, 168, 219, 0) 0%, rgba(51, 168, 219, 0.2) 99.99%, rgba(51, 168, 219, 0.2) 100%),
+    linear-gradient(0deg, #33A8DB, #33A8DB);
+
+}
+
+/* fim das Sections */
