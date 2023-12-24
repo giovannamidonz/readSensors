@@ -1,0 +1,26 @@
+.first{
+  display: flex;
+  flex-direction: row;
+  place-items: center;
+}
+.description{
+  display: grid;
+  grid-template-rows: 1fr; 
+  justify-items: end;
+}
+.description p{
+  font-size: 2.25rem;
+  position:relative;
+  right: 115px;  
+}
+.description h3{
+  font-size:1rem ;
+  margin-right: 10rem;
+  
+}
+.FirstEstatua{
+  position:relative;
+  left: -110px;
+  top: -100px;
+  z-index: -1;
+}
