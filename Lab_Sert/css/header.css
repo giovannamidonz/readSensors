@@ -1,0 +1,21 @@
+header{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+.search{
+  display: flex;
+  align-items: center;
+}
+
+.search input{
+  border: none;
+  background-color: #F8F8F8;
+}
+
+.search:hover{
+  font-weight: bold;
+  font-size: 1.0em;
+  transition: ease 0.1s;
+}

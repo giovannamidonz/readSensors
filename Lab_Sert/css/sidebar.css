@@ -1,0 +1,25 @@
+.sidebar{
+  background-color: #FFFFFF;
+  position: fixed; 
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100px;
+  padding: 10px 14px;
+  
+}
+
+.image-log{
+  display: flex;
+  justify-content: center;
+}
+
+hr{
+  margin: 4px;
+  color: #cac4c4f3;
+}
+
+
+.group{
+  margin-left: 400px;
+}
